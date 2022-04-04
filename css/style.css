@@ -16,7 +16,7 @@ header {
     height: 800px;
     position: relative;
 }
-header #top{
+header #Dh{
     display: flex;
     justify-content: space-between;
     font-size: 30px;
@@ -24,16 +24,16 @@ header #top{
 header h2{
     color: white;
 }
-header #logo{
+header #Dog{
     margin-left: 30px;  
     margin-top: -5px;
     margin-top: 20px;
 }
-header #logo a{
+header #Dog a{
     text-decoration: none;
     color: white ;
 }
-header #logo a:hover{
+header #Dog a:hover{
     background-color: none;
 }
 header nav{
@@ -94,7 +94,7 @@ header #main-header button{
     margin-top: 50px;
     border-radius: 10px;
 }
-header #lb-first{
+header #lb-list{
     position: absolute;
     width: 20%;
     left: 50%;
@@ -102,7 +102,7 @@ header #lb-first{
     text-align: center;
     bottom: 10px;
 }
-header #lb-first .dot{
+header #lb-list .tron{
     margin: auto auto;
     height: 15px;
     width: 15px;
@@ -134,31 +134,32 @@ header #lb-first .dot{
     width: 100%;
 }
 
-#what-we-do{
+#wwd{
     text-align: center;
+    
 }
-#what-we-do h2{
+#wwd h2{
     color: black;
 }
-#what-we-do {
+#wwd {
     padding: 20px 40px;
 }
 
-#what-we-do .container{
+#wwd .container{
     display: flex;
     flex-wrap:wrap;
 }
-#what-we-do .item{
+#wwd .item{
     width: 25%;
 }
-#what-we-do img{
+#wwd img{
     padding: 20px;
     border-radius: 50%;
     margin: 20px auto; 
     display: block;
 }
 
-#statistics {
+#Os {
     margin-top: 80px;
     background-image: url("../img/bg.jpg") ;
     background-repeat: no-repeat;
@@ -166,7 +167,7 @@ header #lb-first .dot{
     position: relative;
     height: 500px;
 }
-#sta{
+#Osta{
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
@@ -174,7 +175,7 @@ header #lb-first .dot{
     font-size: 30px ; 
     color: white;
 }
-#sta0{
+#item1{
     position: relative;
     width: 80%;
     text-align: center;
@@ -182,62 +183,62 @@ header #lb-first .dot{
     transform: translate(-50%,0);
     color: white;
 }
-#sta1{
+#item2{
     margin-top: 200px;
     float: left;
     width: 25%;
 }
-#sta2{
+#item3{
     margin-top: 200px;
     float: left;
     width: 25%;
 }
-#sta3{
+#item4{
     margin-top: 200px;
     float: left;
     width: 25%;
 }
-#sta4{
+#item5{
     margin-top: 200px;
     float: left;
     width: 25%;
 }
-#sta0 h1{
+#item1 h1{
     font-size: 50px;
     margin-bottom: 10px;
 }
-#sta0 p{
+#item1 p{
     font-size: 20px;
 }
 
-#services{
+#Ps{
     background-color: rgb(235, 233, 233);
     padding: 5% 5%;
     display: flex;
 }
-#services .right{
+#Ps .right{
     width: 30%;
 }
-#services h1{
+#Ps h1{
     font-size: 50px;
     color: orange;
 }
-#services h2{
+#Ps h2{
     color: black;
     font-size: 30px;
 }
-#services h3{
+#Ps h3{
     color: black;
     font-size: 40px; 
     margin-top: 10px;
 }
-#services h3 span{
+#Ps h3 span{
     background-color: rgba(204, 204, 204, 0.671);
 }
-#services p{
+#Ps p{
     color: black;
 }
-#services .container{
+#Ps .container{
     width: 70%;
     height: auto;
     display: grid;
@@ -247,7 +248,7 @@ header #lb-first .dot{
     row-gap: 20px;
     
 }
-#services .item{
+#Ps .item{
     background-color: white;
     text-align: center;
     height: auto;
@@ -294,40 +295,40 @@ header #lb-first .dot{
     border-radius: 50%;
 }
 
-#blog{
+#Ob{
     height: auto;
     margin: auto 100px;
 }
-#blog h1{
+#Ob h1{
     font-size: 3em;
     color: black;
     text-align: center;
 }
-#blog .container{
+#Ob .container{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-#blog .item{
+#Ob .item{
     border: 1px solid rgba(172, 172, 172, 0.404);
     height: auto;
     width: 33%;
 }
-#blog img{
+#Ob img{
     width: 100%;
     display: block;
     left: 0px;
     top: 0px;
 }
-#blog h2{
+#Ob h2{
     color: black;
     margin: 30px 30px;
 }
-#blog p{
+#Ob p{
     color: gray;
     margin: 30px 30px;
 }
-#blog h3{
+#Ob h3{
     color: orange;
     margin: 30px 30px;
 }
@@ -435,7 +436,4 @@ footer #submit{
 footer p{
     color: #727377;
 }
-footer #link{
-    height: 50px;
-    padding: 10px;
-}
+
